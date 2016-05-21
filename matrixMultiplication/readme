@@ -1,0 +1,5 @@
+To run the program in standalone mode: [pyspark matMult.py] or [spark-submit matMult.py]. 
+The program assumes each line of the input files are formatted in this way: 
+the name of matrix, the row number, the col number, the value. 
+For test purposes, the generate.py prgoram creates a m by b matrix w default value of 1 for all elements.  
+
