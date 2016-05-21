@@ -1,3 +1,12 @@
+# This program creates a matrix and stores it in a file 
+# Author:   Shahram Mohrehkesh (smohr003@odu.edu)
+# Created:  05/17/2016
+#
+# Copyright (C) 2016 
+# For license information, see LICENSE.txt
+#
+# ID: generate.py  $
+
 import random 
 from sys import argv
 
