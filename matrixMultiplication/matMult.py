@@ -1,3 +1,12 @@
+# This program multiply two matrix A and B, based on MapReduce programming model in pyspark
+# Author:   Shahram Mohrehkesh (smohr003@odu.edu)
+# Created:  05/17/2016
+#
+# Copyright (C) 2016 
+# For license information, see LICENSE.txt
+#
+# ID: matMult.py  $
+
 ''' This program multiply two matrix A and B. 
 '''
 
@@ -60,7 +69,7 @@ if __name__ == "__main__":
 	rowA = getRowCol(text_file_a,1)
 	colA = getRowCol(text_file_a,2)
 	rowB = getRowCol(text_file_b,1)
-	colB = getRowCol(text_file_b,2)
+	colB = getRowCol(text_file_b,2) 
 	
 	#print("number of rows are ",rowA)
 	 
