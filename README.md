@@ -1,3 +1,3 @@
 # README
 
-In this repository
+a repository for some sample spark programs
