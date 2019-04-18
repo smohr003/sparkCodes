@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-cd $SPARK_HOME/jars
+cd "$SPARK_HOME/jars"
 path="[artifact]-[revision](-[classifier]).[ext]"
 ivyjar="ivy-2.4.0.jar"
 # 1. Download the latest ivy jar (currently it's v.2.4.0)
